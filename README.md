@@ -1,2 +1,4 @@
 # laboratorioII
-TPs y archivos
+
+# otro titulo
+<h1>TPs y archivos</h1>
