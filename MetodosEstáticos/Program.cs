@@ -10,7 +10,15 @@ namespace MetodosEstáticos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo");
+            int elMayor;
+            string dato;
+            //Console.WriteLine("Hola Mundo");
+            elMayor=Comparadora.RetornarMayor(10,5);
+            Sello.mensaje = "nuevo mensaje";
+            Sello.color = ConsoleColor.Red;
+            dato=Sello.Imprimir();
+            Sello.ImprimirEnColor();
+            
         }
     }
 }
