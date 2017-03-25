@@ -24,31 +24,30 @@ namespace MetodosEstáticos
             Console.WriteLine(Sello.mensaje);
         }
 
+        public static void ImprimirFilaAsteriscos(int longCadena)
+        {
+            for (int contador = 0; contador < longCadena + 2; contador++)
+            {
+                Console.Write("*");
+            }
+        }
+
         public static void ImprimirConDeco()
         {
             int longitudMensaje;
             longitudMensaje = mensaje.Length;
             if (longitudMensaje > 0)
             {
-                Console.Write("*");
-                //Console.WriteLine(longitudMensaje);
-                for(int contador = 0; contador < longitudMensaje; contador++ )
-                {
-                    Console.Write("*");
-                }
-                Console.Write("*\n");
+                ImprimirFilaAsteriscos(longitudMensaje);
+                Console.Write("\n");
                 Console.Write("*");
                 Console.WriteLine(Sello.mensaje+"*");
-                //Sello.ImprimirEnColor();
-                //Console.Write("*\n");
-                Console.Write("*");
-                for (int contador = 0; contador < longitudMensaje; contador++)
-                {
-                    Console.Write("*");
-                }
-                Console.Write("*\n"); 
+                ImprimirFilaAsteriscos(longitudMensaje);
             }
-            //Console.Write("*");
+            
         }
+
+        
+
     }
 }

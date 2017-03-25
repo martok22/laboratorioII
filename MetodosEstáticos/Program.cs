@@ -15,7 +15,7 @@ namespace MetodosEstáticos
             //Console.WriteLine("Hola Mundo");
             elMayor = Comparadora.RetornarMayor(10, 5);
             Sello.mensaje = "nuevo mensaje";
-            Sello.color = ConsoleColor.Red;
+            Sello.color = ConsoleColor.Green;
             dato = Sello.Imprimir();
             Sello.ImprimirEnColor();
             Console.ReadLine();
