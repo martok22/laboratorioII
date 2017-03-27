@@ -12,7 +12,7 @@ namespace MetodosEstáticos
         public static ConsoleColor color;
         public static string Imprimir()
         {
-            return "algo";
+            return mensaje;
         }
         public static void Borrar()
         {
@@ -22,6 +22,33 @@ namespace MetodosEstáticos
         {
             Console.ForegroundColor=Sello.color;
             Console.WriteLine(Sello.mensaje);
+        }
+
+        public static void ImprimirConDeco()
+        {
+            int longitudMensaje;
+            longitudMensaje = mensaje.Length;
+            if (longitudMensaje > 0)
+            {
+                Console.Write("*");
+                //Console.WriteLine(longitudMensaje);
+                for(int contador = 0; contador < longitudMensaje; contador++ )
+                {
+                    Console.Write("*");
+                }
+                Console.Write("*\n");
+                Console.Write("*");
+                Console.WriteLine(Sello.mensaje+"*");
+                //Sello.ImprimirEnColor();
+                //Console.Write("*\n");
+                Console.Write("*");
+                for (int contador = 0; contador < longitudMensaje; contador++)
+                {
+                    Console.Write("*");
+                }
+                Console.Write("*\n"); 
+            }
+            //Console.Write("*");
         }
     }
 }
