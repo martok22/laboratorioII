@@ -23,7 +23,7 @@ namespace Clase3
 
             eFabricante fabricante;
             fabricante = eFabricante.CHEVROLET;
-            fabricante = (eFabricante)2;
+            fabricante = (eFabricante)0;
 
         }
     }

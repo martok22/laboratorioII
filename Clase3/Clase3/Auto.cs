@@ -14,15 +14,17 @@ namespace Clase3
        public Rueda RuedaIT;
        public static int CantidadDeInstancias;
        public eFabricante Fabricante;
+       public Random numeroRandom;
 
         public Auto()
        {
             this.RuedaDD = new Rueda();
             this.RuedaID = new Rueda();
-            this.RuedaID = new Rueda();
+            this.RuedaDT = new Rueda();
             this.RuedaIT = new Rueda();
             Auto.CantidadDeInstancias++;
-            this.Fabricante = FORD;
+            this.numeroRandom = new Random();
+            this.Fabricante = (eFabricante)numeroRandom.Next(3);
        }
 
         /* Constructores de instancia
