@@ -25,6 +25,20 @@ namespace Clase3
             fabricante = eFabricante.CHEVROLET;
             fabricante = (eFabricante)0;
 
+            /*Random rd = new Random();
+            miAuto4.Fabricante = (eFabricante)rd.Next(3);
+            miAuto4.Fabricante = (eFabricante)rd.Next(3);
+            miAuto4.Fabricante = (eFabricante)rd.Next(3);
+            */
+            miAuto4.MostrarAuto();
+            miAuto4.VolverACero();
+            Carrera cr = new Carrera();
+            cr.porTiempo(10);
+            Rueda rueda = new Rueda(30,"Pirelli");
+            Rueda rueda2 = new Rueda(24);
+            Rueda rueda3 = new Rueda();
+            
         }
+
     }
 }

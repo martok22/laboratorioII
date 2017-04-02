@@ -13,8 +13,31 @@ namespace Clase3
        public Rueda RuedaID;
        public Rueda RuedaIT;
        public static int CantidadDeInstancias;
-       public eFabricante Fabricante;
-       public Random numeroRandom;
+       private eFabricante Fabricante;
+       public static Random numeroRandom;
+
+       // Private puede asignarse en el constructor, o pasarse como param al metodo
+        // Los atributos privados son accesibles para su escritura (asignarle un valor) a través
+        // de los constructores publicos y los métodos públicos.
+        // Pueden ser accedidos para lectura (devolver el valor del dato) 
+        // a través de métodos públicos.
+        // En este lenguaje también se los puede acceder para lectura y escritura a través
+        // de las propiedades
+       private int kilometrosRecorridos;
+       static Auto()
+       {
+           Auto.CantidadDeInstancias = 0;
+           //Auto.CantidadDeInstancias++ lo aumentaria una sola vez
+           // porq este constructor solo es llamado 1 sola vez
+
+           //El fabricante cargado se genere de manera random
+           // entre las 3 opciones existentes
+           // Probar que haya generado 3 objetos random
+           // Creo 1 atributo estatico de tipo random
+           // Inicializao el objeto en el constructor estatico
+           Auto.numeroRandom = new Random();
+           
+       }
 
         public Auto()
        {
@@ -23,8 +46,11 @@ namespace Clase3
             this.RuedaDT = new Rueda();
             this.RuedaIT = new Rueda();
             Auto.CantidadDeInstancias++;
-            this.numeroRandom = new Random();
             this.Fabricante = (eFabricante)numeroRandom.Next(3);
+            /*switch (numeroRandom.Next(3))
+            {
+            }*/
+             
        }
 
         /* Constructores de instancia
@@ -41,17 +67,37 @@ namespace Clase3
         // 2) No se puede utilizar el operador this
         // 3)
 
-        static Auto()
+        public void AgregarKilometros(int kilometros)
         {
-            Auto.CantidadDeInstancias = 0;
-            //Auto.CantidadDeInstancias++ lo aumentaria una sola vez
-            // porq este constructor solo es llamado 1 sola vez
+            this.kilometrosRecorridos = this.kilometrosRecorridos + kilometros;
 
-            //El fabricante cargado se genere de manera random
-            // entre las 3 opciones existentes
-            // Probar que haya generado 3 objetos random
-            // Creo 1 atributo estatico de tipo random
-            // Inicializao el objeto en el constructor estatico
         }
+
+        // No usar guiones bajos en nomenclatura de variables o metodos
+
+        public void VolverACero()
+        {
+            this.kilometrosRecorridos = 0;
+        }
+
+        public int GetKms()
+        {
+            return this.kilometrosRecorridos;
+        }
+
+        public void MostrarAuto()
+        {
+            // Console.writeLine mostrar fabricante, abajo 
+            // Console.WriteLine mostrar kms
+            Console.WriteLine("El fabricante del auto es: "+this.Fabricante);
+            Console.WriteLine("El kilometraje del auto es: "+this.kilometrosRecorridos);
+            this.RuedaDD.MostrarRueda();
+            this.RuedaID.MostrarRueda();
+            this.RuedaIT.MostrarRueda();
+            this.RuedaDT.MostrarRueda();
+        }
+            
+            
+       
     }
 }

@@ -8,8 +8,8 @@ namespace Clase3
 {  
     class Rueda
     {
-        public string Marca;
-        public int Tamaño;
+        private string Marca;
+        private int Tamaño;
 
         public Rueda()
         {
@@ -17,5 +17,28 @@ namespace Clase3
             // marca = algo si no es estatico
             this.Marca = "Sin Marca";
         }
+
+        public Rueda(string marca)
+        {
+            this.Marca = marca;
+        }
+
+        public Rueda(int tamaño):this()
+        {
+            this.Tamaño = tamaño;
+        }
+
+        public Rueda(int tamaño, string marca): this(marca)
+        {
+            this.Tamaño = tamaño;
+        }
+
+        public void MostrarRueda()
+        {
+            Console.WriteLine("La marca de la rueda es: " + this.Marca);
+            Console.WriteLine("El tamaño de la rueda es: " + this.Tamaño);
+        }
+
+        
     }
 }

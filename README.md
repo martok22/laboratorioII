@@ -1,6 +1,3 @@
-Algo
+# Laboratorio II
 =============================================
-# laboratorioII
-
-# otro titulo
-<h3>TPs y archivos</h3>
+<h3>Ejercicios de clase, tarea, etc.</h3>
