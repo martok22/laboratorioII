@@ -1,0 +1,9 @@
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\bin\Debug\FormularioEjemplo.exe.config
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\bin\Debug\FormularioEjemplo.exe
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\bin\Debug\FormularioEjemplo.pdb
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.Form1.resources
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.Properties.Resources.resources
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.csproj.GenerateResource.Cache
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.exe
+D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.pdb
