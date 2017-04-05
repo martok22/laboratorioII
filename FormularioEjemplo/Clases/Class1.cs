@@ -9,6 +9,5 @@ namespace Clases
     public class Persona
     {
         public string nombre;
-        public Persona(
     }
 }

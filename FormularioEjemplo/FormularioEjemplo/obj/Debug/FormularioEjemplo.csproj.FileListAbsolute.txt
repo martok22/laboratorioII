@@ -7,3 +7,12 @@ D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\D
 D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.csproj.GenerateResource.Cache
 D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.exe
 D:\Mis Documentos\laboratorioII-master\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.pdb
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\bin\Debug\FormularioEjemplo.exe.config
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.exe
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.pdb
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.csprojResolveAssemblyReference.cache
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.Form1.resources
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.Properties.Resources.resources
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\obj\Debug\FormularioEjemplo.csproj.GenerateResource.Cache
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\bin\Debug\FormularioEjemplo.exe
+D:\Marto\Git\LaboratorioII\FormularioEjemplo\FormularioEjemplo\bin\Debug\FormularioEjemplo.pdb

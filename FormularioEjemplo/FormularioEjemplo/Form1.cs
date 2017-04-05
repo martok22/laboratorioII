@@ -30,7 +30,7 @@ namespace FormularioEjemplo
 
         private void btnmostrar_Click(object sender, EventArgs e)
         {
-            Clases.
+            
             string miVariable;
             miVariable = this.txtnombre.Text;
             MessageBox.Show("hola mundo formularios " + miVariable);
