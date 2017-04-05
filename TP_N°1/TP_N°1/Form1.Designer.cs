@@ -79,6 +79,7 @@
             // 
             // cmbOperacion
             // 
+            this.cmbOperacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperacion.FormattingEnabled = true;
             this.cmbOperacion.Location = new System.Drawing.Point(123, 83);
             this.cmbOperacion.Name = "cmbOperacion";
