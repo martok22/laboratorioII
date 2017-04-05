@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_18
+namespace Ejercicio_18_b
 {
-    class EMarca
+    enum EMarca
     {
+        Asus, Apple, Samsung, Toshiba, IBM
     }
 }
