@@ -46,9 +46,9 @@ namespace Clase_3
             int dato;
             bool otro;
             dato = km1 + 33;
-            Console.WriteLine(otro = km1 == km2);
+            //Console.WriteLine(otro = km1 == km2);
 			
-			 Metro unmetro;
+			Metro unmetro;
 
             Kilometro k1 = (Kilometro)33;
 
@@ -59,6 +59,10 @@ namespace Clase_3
             unmetro = k1;
 
             Metro resultado = unmetro + k2;
+
+            resultado.MostrarMetro();
+
+            Console.ReadLine();
         }
 
     }

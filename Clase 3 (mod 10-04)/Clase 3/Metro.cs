@@ -12,7 +12,8 @@ namespace Clase_3
 
         private Metro(int cant)
         {
-            Metro.cantidad = cant;
+            //Metro.cantidad = cant; ?
+            this.cantidad = cant;
         }
 
         public static implicit operator Metro(Kilometro k1)
@@ -23,6 +24,12 @@ namespace Clase_3
         public static Metro  operator +(Metro metros,Kilometro kilometros)
         {
             return new Metro(metros.cantidad+(kilometros.cantidad*1000));
+            
+        }
+
+        public void MostrarMetro()
+        {
+            Console.WriteLine("El metro vale: " + this.cantidad);
             
         }
     }

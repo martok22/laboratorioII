@@ -38,7 +38,7 @@ namespace Clase_3
 
         public static bool operator !=(Kilometro km1, Kilometro km2)
         {
-            return !(k1==k2);
+            return !(km1==km2);
         }
 		
 		public static implicit operator Kilometro(int numero)
