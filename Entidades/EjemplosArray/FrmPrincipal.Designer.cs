@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(292, 273);
             this.Name = "FrmPrincipal";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.ResumeLayout(false);
 
         }

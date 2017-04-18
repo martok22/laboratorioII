@@ -23,9 +23,21 @@ namespace Entidades
         {
             return (alumnoX.Apellido == alumnoY.Apellido && alumnoX.Legajo == alumnoY.Legajo);
         }
+
         public static bool operator !=(Alumno alumnoX, Alumno alumnoY)
         {
-            return !(alumnoX==alumnoY);
+            return !(alumnoX == alumnoY);
         }
+
+        public static bool operator ==(Alumno alumnoX, int legajo)
+        {
+            return (alumnoX.Legajo == legajo);
+        }
+        public static bool operator !=(Alumno alumnoX, int legajo)
+        {
+            return (!(alumnoX.Legajo == legajo));
+        }
+
+        
     }
 }
