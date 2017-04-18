@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_18_enum
+namespace Objetos
 {
-    enum EMarca
+    enum eFabricante
     {
-        Asus, Apple, Samsung, Toshiba, IBM
+        Ford,
+        Chebrolet,
+        Hundai
     }
 }

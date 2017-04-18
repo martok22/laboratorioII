@@ -44,6 +44,7 @@
             this.botonLimpiar.TabIndex = 0;
             this.botonLimpiar.Text = "CC";
             this.botonLimpiar.UseVisualStyleBackColor = true;
+            this.botonLimpiar.Click += new System.EventHandler(this.botonLimpiar_Click);
             // 
             // botonOperar
             // 
@@ -53,6 +54,7 @@
             this.botonOperar.TabIndex = 1;
             this.botonOperar.Text = "=";
             this.botonOperar.UseVisualStyleBackColor = true;
+            this.botonOperar.Click += new System.EventHandler(this.botonOperar_Click);
             // 
             // textNumero1
             // 
@@ -81,6 +83,11 @@
             // 
             this.cmbOperacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperacion.FormattingEnabled = true;
+            this.cmbOperacion.Items.AddRange(new object[] {
+            "/",
+            "+",
+            "-",
+            "*"});
             this.cmbOperacion.Location = new System.Drawing.Point(123, 83);
             this.cmbOperacion.Name = "cmbOperacion";
             this.cmbOperacion.Size = new System.Drawing.Size(44, 21);

@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_18_main
+namespace Objetos
 {
-    class Program
+    class Tiempo
     {
-        static void Main(string[] args)
+        public Tiempo(int cantidad)
         {
+            this.cantidad = cantidad;
         }
+
+        public int cantidad;
+
     }
 }

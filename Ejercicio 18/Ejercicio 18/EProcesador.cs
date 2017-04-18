@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_18_a
+namespace Ejercicio_18_enum
 {
     public enum EProcesador
     {

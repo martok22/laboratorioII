@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_18_enum
+namespace Ejercicio_16
 {
-    enum EMarca
+    class Program
     {
-        Asus, Apple, Samsung, Toshiba, IBM
+        static void Main(string[] args)
+        {
+        }
     }
 }
