@@ -1,0 +1,6 @@
+C:\Users\herna\OneDrive\Documents\visual studio 2012\Projects\Entidades\EntidadesConColeccion\bin\Debug\EntidadesConColeccion.dll
+C:\Users\herna\OneDrive\Documents\visual studio 2012\Projects\Entidades\EntidadesConColeccion\bin\Debug\EntidadesConColeccion.pdb
+C:\Users\herna\OneDrive\Documents\visual studio 2012\Projects\Entidades\EntidadesConColeccion\bin\Debug\Entidades.dll
+C:\Users\herna\OneDrive\Documents\visual studio 2012\Projects\Entidades\EntidadesConColeccion\bin\Debug\Entidades.pdb
+C:\Users\herna\OneDrive\Documents\visual studio 2012\Projects\Entidades\EntidadesConColeccion\obj\Debug\EntidadesConColeccion.dll
+C:\Users\herna\OneDrive\Documents\visual studio 2012\Projects\Entidades\EntidadesConColeccion\obj\Debug\EntidadesConColeccion.pdb
