@@ -25,7 +25,7 @@ namespace Indexadores
                 if (indice<=_ListaAlumnos.Count) 
                     this._ListaAlumnos[indice] = value; 
                 else
-                    this._ListaAlumnos.Add(new Alumno(indice));
+                    this._ListaAlumnos.Add(new Alumno(value));
                 // si no existe, agregar
                 
             }
