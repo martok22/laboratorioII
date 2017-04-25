@@ -20,5 +20,16 @@ namespace Indexadores
         {
             this._nombre = nombre;
         }
+        
+        public Alumno(Alumno value)
+        {
+            // TODO: Complete member initialization
+            this.value = value;
+        }
+
+        public int Legajo
+        {
+            get { return this._legajo; }
+        }
     }
 }
