@@ -30,6 +30,25 @@ namespace conHerencia
 
         }
 
-       
+        public static bool operator ==(AlumnoEgresado unaAlumnoEgresado, AlumnoEgresado dosAlumnoEgresado)
+        {
+            if ((unaAlumnoEgresado.Dni == dosAlumnoEgresado.Dni) && 
+                (unaAlumnoEgresado._legajo == dosAlumnoEgresado._legajo) &&
+                (unaAlumnoEgresado._fechaEgreso == dosAlumnoEgresado._fechaEgreso))
+                return true;
+            return false;
+        }
+
+        public static bool operator !=(AlumnoEgresado unaAlumnoEgresado, AlumnoEgresado dosAlumnoEgresado)
+        {
+            return (!(unaAlumnoEgresado == dosAlumnoEgresado));
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is AlumnoEgresado)
+                return true;
+            return false;
+        }
     }
 }

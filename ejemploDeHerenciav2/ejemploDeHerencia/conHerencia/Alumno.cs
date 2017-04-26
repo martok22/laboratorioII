@@ -30,6 +30,25 @@ namespace conHerencia
 
         }
 
+        public static bool operator ==(Alumno unaAlumno, Alumno dosAlumno)
+        {
+            if ((unaAlumno.Dni == dosAlumno.Dni) &&
+                (unaAlumno._legajo == dosAlumno._legajo))
+                return true;
+            return false;
+        }
+
+        public static bool operator !=(Alumno unaAlumno, Alumno dosAlumno)
+        {
+            return (!(unaAlumno == dosAlumno));
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Alumno)
+                return true;
+            return false;
+        }
      
     }
 }

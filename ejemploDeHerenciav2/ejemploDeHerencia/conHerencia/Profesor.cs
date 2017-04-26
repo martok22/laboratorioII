@@ -32,7 +32,22 @@ namespace conHerencia
         {
             if (obj is Profesor)
                 return true;
-             return false;
+            return false;
         }
+
+        public static bool operator ==(Profesor unaProfesor, Profesor dosProfesor)
+        {
+            if ((unaProfesor.Dni == dosProfesor.Dni) &&
+                (unaProfesor._fichaDocente == dosProfesor._fichaDocente))
+                return true;
+            return false;
+        }
+
+        public static bool operator !=(Profesor unaProfesor, Profesor dosProfesor)
+        {
+            return (!(unaProfesor == dosProfesor));
+        }
+
+        
     }
 }

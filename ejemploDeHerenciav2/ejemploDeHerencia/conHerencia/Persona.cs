@@ -7,7 +7,13 @@ namespace conHerencia
 {
     public class Persona
     {
-        protected int _dni;
+        private int _dni;
+
+        protected int Dni
+        {
+            get { return _dni; }
+            set { _dni = value; }
+        }
         protected string _nombre;
         protected string _apellido;
 
@@ -35,6 +41,28 @@ namespace conHerencia
         public void Mostrar()
         {           
             Console.Write(this.ToString());
+        }
+
+        // Uno de los parámetros pasado al operador de una clase tiene que ser de la misma clase
+                
+        
+        public static bool operator ==(Persona unaPersona, Persona dosPersona)
+        {
+            if (unaPersona.Dni == dosPersona.Dni)
+                return true;
+            return false;
+        }
+        
+        public static bool operator !=(Persona unaPersona, Persona dosPersona)
+        {
+            return (!(unaPersona == dosPersona));
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Persona)
+                return true;
+            return false;
         }
     }
 }

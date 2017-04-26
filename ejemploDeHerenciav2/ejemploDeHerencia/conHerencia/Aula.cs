@@ -11,6 +11,12 @@ namespace conHerencia
         private int _numero;
         private string _nombre;
         private List<Persona> ListadoDePersonas;
+
+        public List<Persona> ListadoDePersonas1
+        {
+            get { return ListadoDePersonas; }
+            set { ListadoDePersonas = value; }
+        }
         private int capacidad;
 
 
@@ -50,9 +56,54 @@ namespace conHerencia
 
         public bool borrarPersona(Persona unaPersona)
         {
+            // solucion sin equals
+            
+           
+           foreach(Persona item in this.ListadoDePersonas)
+           {
+               if (unaPersona is AlumnoEgresado)
+               {
+                   // if((AlumnoEgresado)unaPersona.Equals(item))
+                   
+                   if (unaPersona == item)
+                   {
+                       ListadoDePersonas.Remove(item);
+                       return true;
+                   }
+               }
+               else if (unaPersona is Alumno)
+               {
+                   if (unaPersona == item)
+                   {
+                       ListadoDePersonas.Remove(item);
+                       return true;
+                   }
+               }
+               else if (unaPersona is Profesor)
+               {
+                   if (unaPersona == item)
+                   {
+                       ListadoDePersonas.Remove(item);
+                       return true;
+                   }
+               }
+               else
+               {
+                   if (unaPersona == item)
+                   {
+                       ListadoDePersonas.Remove(item);
+                       return true;
+                   }
+               }
+           }
+           
+            
+
 
             return true;
         }
+
+        
 
         
     }
