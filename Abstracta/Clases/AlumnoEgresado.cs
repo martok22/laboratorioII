@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Clases
 {
-    class AlumnoEgresado
+    public sealed class AlumnoEgresado : Alumno
     {
+        // Las clases sealed o selladas no permiten tener hijos (clases q 
+        // hereden
     }
 }
