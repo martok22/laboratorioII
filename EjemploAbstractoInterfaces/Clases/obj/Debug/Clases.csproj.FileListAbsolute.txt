@@ -1,0 +1,5 @@
+D:\Mis Documentos\Gonzalez\EstoNoExistia\EjemploAbstractoInterfaces\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Gonzalez\EstoNoExistia\EjemploAbstractoInterfaces\Clases\bin\Debug\Clases.dll
+D:\Mis Documentos\Gonzalez\EstoNoExistia\EjemploAbstractoInterfaces\Clases\bin\Debug\Clases.pdb
+D:\Mis Documentos\Gonzalez\EstoNoExistia\EjemploAbstractoInterfaces\Clases\obj\Debug\Clases.dll
+D:\Mis Documentos\Gonzalez\EstoNoExistia\EjemploAbstractoInterfaces\Clases\obj\Debug\Clases.pdb
