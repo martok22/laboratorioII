@@ -57,6 +57,7 @@ namespace Clases
 
         public static Grupo operator -(Grupo e, Mascota j)
         {
+            // No se debe usar Remove (no funciona). Sino que se debe usar removeAt. Falta testear.
             if (EstaEnLaLista(e, j)) e._manada.Remove(j);
             return e;
         }

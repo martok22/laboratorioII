@@ -40,6 +40,12 @@ namespace Clases
             return false;
         }
 
+        // Forma incorrecta. Forma más corta de hacerlo:
+        // public static bool operator != (Gato gatoUno, Gato gatoDos)
+        // {
+        //      if (!(gatoUno==gatoDos)) return true;
+        //      return false;
+        // }
         public static bool operator !=(Gato gatoUno, Gato gatoDos)
         {
             if (gatoUno.Nombre == gatoDos.Nombre &&

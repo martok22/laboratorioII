@@ -18,17 +18,17 @@ namespace Clases
 
         public bool EsAlfa
         {
-          get { return _esAlfa; }
-          set { _esAlfa = value; }
+            get { return _esAlfa; }
+            set { _esAlfa = value; }
         }
 
-        public Perro(string nombre, string raza):base(nombre,raza)
+        public Perro(string nombre, string raza) : base(nombre, raza)
         {
             this.Edad = 0;
             this.EsAlfa = false;
         }
 
-        public Perro(string nombre, string raza, int edad, bool esAlfa) : base(nombre, raza) 
+        public Perro(string nombre, string raza, int edad, bool esAlfa) : base(nombre, raza)
         {
             this.Edad = edad;
             this.EsAlfa = esAlfa;
@@ -51,12 +51,12 @@ namespace Clases
 
         protected override string Ficha()
         {
-            return base.DatosCompletos();  
+            return base.DatosCompletos();
         }
 
         public override bool Equals(object obj)
         {
-            if(obj is Perro && (Perro)obj == this)
+            if (obj is Perro && (Perro)obj == this)
                 return true;
             return false;
         }
@@ -74,6 +74,13 @@ namespace Clases
                 return true;
             return false;
         }
+
+        // Forma incorrecta. Forma más corta de hacerlo:
+        // public static bool operator != (Perro perroUno, Perro perroDos)
+        // {
+        //      if (!(perroUno==perroDos)) return true;
+        //      return false;
+        // }
 
         public static bool operator !=(Perro perroUno, Perro perroDos)
         {
