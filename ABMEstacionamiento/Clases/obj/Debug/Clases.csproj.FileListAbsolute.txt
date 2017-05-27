@@ -1,5 +1,0 @@
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Clases\bin\Debug\Clases.dll
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Clases\bin\Debug\Clases.pdb
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Clases\obj\Debug\Clases.dll
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Clases\obj\Debug\Clases.pdb

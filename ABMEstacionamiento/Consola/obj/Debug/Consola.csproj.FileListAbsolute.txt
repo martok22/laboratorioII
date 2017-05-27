@@ -1,8 +1,0 @@
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\bin\Debug\Consola.exe.config
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\bin\Debug\Consola.exe
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\bin\Debug\Consola.pdb
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\bin\Debug\Clases.dll
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\bin\Debug\Clases.pdb
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\obj\Debug\Consola.exe
-D:\Mis Documentos\Gonzalez\EstoNoExistia\ABMEstacionamiento\Consola\obj\Debug\Consola.pdb
