@@ -1,0 +1,6 @@
+D:\marto\Documents\Proyectos\PruebaArchivos\Consola\bin\Debug\Consola.exe.config
+D:\marto\Documents\Proyectos\PruebaArchivos\Consola\bin\Debug\Consola.exe
+D:\marto\Documents\Proyectos\PruebaArchivos\Consola\bin\Debug\Consola.pdb
+D:\marto\Documents\Proyectos\PruebaArchivos\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+D:\marto\Documents\Proyectos\PruebaArchivos\Consola\obj\Debug\Consola.exe
+D:\marto\Documents\Proyectos\PruebaArchivos\Consola\obj\Debug\Consola.pdb
