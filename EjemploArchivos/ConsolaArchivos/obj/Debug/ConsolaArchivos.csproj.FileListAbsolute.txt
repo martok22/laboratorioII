@@ -1,0 +1,10 @@
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\ConsolaArchivos.exe.config
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\ConsolaArchivos.exe
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\ConsolaArchivos.pdb
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\obj\Debug\ConsolaArchivos.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\obj\Debug\ConsolaArchivos.exe
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\obj\Debug\ConsolaArchivos.pdb
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\EntidadesArchivo.dll
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\EntidadesArchivo.pdb
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\Entidades.dll
+D:\Mis Documentos\Gonzalez\EjemploArchivos\ConsolaArchivos\bin\Debug\Entidades.pdb

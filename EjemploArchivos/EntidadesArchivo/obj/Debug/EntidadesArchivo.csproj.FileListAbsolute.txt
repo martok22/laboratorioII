@@ -1,0 +1,5 @@
+D:\Mis Documentos\Gonzalez\EjemploArchivos\EntidadesArchivo\bin\Debug\EntidadesArchivo.dll
+D:\Mis Documentos\Gonzalez\EjemploArchivos\EntidadesArchivo\bin\Debug\EntidadesArchivo.pdb
+D:\Mis Documentos\Gonzalez\EjemploArchivos\EntidadesArchivo\obj\Debug\EntidadesArchivo.dll
+D:\Mis Documentos\Gonzalez\EjemploArchivos\EntidadesArchivo\obj\Debug\EntidadesArchivo.pdb
+D:\Mis Documentos\Gonzalez\EjemploArchivos\EntidadesArchivo\obj\Debug\EntidadesArchivo.csprojResolveAssemblyReference.cache
