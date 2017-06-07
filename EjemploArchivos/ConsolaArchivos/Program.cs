@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,10 +20,14 @@ namespace ConsolaArchivos
             //AdministradorDeArchivos.Saludar();
             Persona p1 = new Persona("Natalia", "Natalia");
             Persona p2 = new Persona("Jorge", "Jorge");
+            Persona p3 = new Persona("Maria", "Maria");
             try
             {
                 Program.SerializarPersonaXML(p1);
-                Program.DeserializarPersonaXML(p2);
+                System.Console.WriteLine(p2._nombre);
+                p2=Program.DeserializarPersonaXML(p2);
+                Program.SerializarPersonaBinaria(p3);
+                Program.DeserializarPersonaBinaria(p3);
             }
             catch (Exception excp)
             {
@@ -31,8 +35,9 @@ namespace ConsolaArchivos
             }
             finally
             {
-                System.Console.WriteLine("Nombre p2: ", p2._nombre);
-                System.Console.WriteLine("Apellido p2: ", p2._apellido);
+                System.Console.WriteLine("Nombre p2: {0}", p2._nombre);
+                System.Console.WriteLine("Apellido p2: {0}", p2._apellido);
+                System.Console.WriteLine("Nombre p3: {0}", p3._nombre);
                 System.Console.Read();
             }
 
@@ -61,31 +66,34 @@ namespace ConsolaArchivos
             escritor.Close();
         }
 
-        public static void DeserializarPersonaXML(Persona p)
+        public static Persona DeserializarPersonaXML(Persona p)
         {
             XmlSerializer Serializador = new XmlSerializer(typeof(Persona));
             StreamReader reader = new StreamReader("Persona.xml");
             p = (Persona)Serializador.Deserialize(reader);
             reader.Close();
+            return p;
         }
 
-        public static void SerializarPersonaBinaria()
+        public static void SerializarPersonaBinaria(Persona p)
         {
-            Persona persona = new Persona();
+            //Persona persona = new Persona();
             IFormatter formateador = new BinaryFormatter();
-            using(Stream archivo = new FileStream("Persona.bin",FileMode.Create,FileAccess.Write,FileShare.Write)
+            using (Stream archivo = new FileStream("Persona.bin", FileMode.Create, FileAccess.Write, FileShare.Write))
             {
-                formateador.Serialize(archivo,persona);
+                formateador.Serialize(archivo, p);
             }
         }
 
-        public static void DeserializarPersonaBinaria()
+        public static void DeserializarPersonaBinaria(Persona p)
         {
             IFormatter formateador = new BinaryFormatter();
-            using(Stream archivo = new FileStream("Persona.bin",FileMode.Open,FileAccess.Read,FileShare.Read)
+            using (Stream archivo = new FileStream("Persona.bin", FileMode.Open, FileAccess.Read, FileShare.Read))
             {
-                Persona aux = (Persona)formateador.Deserialize(archivo);
+                //Persona aux;
+                p = (Persona)formateador.Deserialize(archivo);
             }
+            //return p;
         }
     }
 }
