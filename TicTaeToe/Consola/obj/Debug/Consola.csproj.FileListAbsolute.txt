@@ -1,0 +1,8 @@
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\bin\Debug\Consola.exe.config
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\bin\Debug\Consola.exe
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\bin\Debug\Consola.pdb
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\bin\Debug\Clases.dll
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\bin\Debug\Clases.pdb
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\obj\Debug\Consola.exe
+c:\Users\marto\OneDrive\documentos\visual studio 2017\Projects\Clases\Consola\obj\Debug\Consola.pdb

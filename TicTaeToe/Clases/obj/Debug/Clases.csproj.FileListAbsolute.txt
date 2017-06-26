@@ -1,0 +1,5 @@
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\Clases\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\Clases\Clases\bin\Debug\Clases.dll
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\Clases\Clases\bin\Debug\Clases.pdb
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\Clases\Clases\obj\Debug\Clases.dll
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\Clases\Clases\obj\Debug\Clases.pdb

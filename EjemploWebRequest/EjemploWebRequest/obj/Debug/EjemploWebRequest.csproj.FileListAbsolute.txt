@@ -1,0 +1,6 @@
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\EjemploWebRequest\EjemploWebRequest\bin\Debug\EjemploWebRequest.exe.config
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\EjemploWebRequest\EjemploWebRequest\bin\Debug\EjemploWebRequest.exe
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\EjemploWebRequest\EjemploWebRequest\bin\Debug\EjemploWebRequest.pdb
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\EjemploWebRequest\EjemploWebRequest\obj\Debug\EjemploWebRequest.csprojResolveAssemblyReference.cache
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\EjemploWebRequest\EjemploWebRequest\obj\Debug\EjemploWebRequest.exe
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\EjemploWebRequest\EjemploWebRequest\obj\Debug\EjemploWebRequest.pdb

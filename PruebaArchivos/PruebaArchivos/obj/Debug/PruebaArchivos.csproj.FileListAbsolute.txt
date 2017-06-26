@@ -1,0 +1,6 @@
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\PruebaArchivos\PruebaArchivos\bin\Debug\PruebaArchivos.exe.config
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\PruebaArchivos\PruebaArchivos\bin\Debug\PruebaArchivos.exe
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\PruebaArchivos\PruebaArchivos\bin\Debug\PruebaArchivos.pdb
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\PruebaArchivos\PruebaArchivos\obj\Debug\PruebaArchivos.csprojResolveAssemblyReference.cache
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\PruebaArchivos\PruebaArchivos\obj\Debug\PruebaArchivos.exe
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\PruebaArchivos\PruebaArchivos\obj\Debug\PruebaArchivos.pdb
