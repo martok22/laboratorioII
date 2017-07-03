@@ -1,0 +1,5 @@
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\SP_Laboratorio_II\Excepciones\bin\Debug\Excepciones.dll
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\SP_Laboratorio_II\Excepciones\bin\Debug\Excepciones.pdb
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\SP_Laboratorio_II\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\SP_Laboratorio_II\Excepciones\obj\Debug\Excepciones.dll
+c:\users\marto\onedrive\documentos\visual studio 2017\Projects\SP_Laboratorio_II\Excepciones\obj\Debug\Excepciones.pdb
