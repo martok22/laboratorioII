@@ -1,0 +1,7 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\bin\Debug\Clases_2.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\bin\Debug\Clases_2.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\bin\Debug\Clases.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\bin\Debug\Clases.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\obj\Debug\Clases_2.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\obj\Debug\Clases_2.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\MétodoDeExtensión\Clases_2\obj\Debug\Clases_2.pdb
